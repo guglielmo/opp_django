@@ -15,7 +15,11 @@ build
 *.db
 
 # Logs:
-*.log
+log/*
 
 # Pycharm
 .idea
+
+.env
+
+orig_scripts/
