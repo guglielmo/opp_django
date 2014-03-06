@@ -1,4 +1,5 @@
 Django>=1.6
+MySQL-python
 readline==6.2.4.1 # need easy_install on OSX
 ipython
 django-braces
@@ -6,3 +7,8 @@ django-extensions
 django-model-utils
 logutils
 South
+beautifulsoup4
+requests
+-e git+git@github.com:joke2k/django-environ.git@156b9344a42597e66bcb1d75d21f6101e4d12359#egg=environ
+
+
